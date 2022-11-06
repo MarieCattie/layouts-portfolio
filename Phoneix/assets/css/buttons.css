@@ -1,0 +1,21 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 120%;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    padding-right: 28px;
+    padding-left: 28px;
+}
+.btn--action {
+    color: #fff;
+    background-color: var(--accent-color);
+}
+.btn--light {
+    color: var(--text-color);
+    background-color: #fff;
+}

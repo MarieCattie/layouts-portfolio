@@ -1,0 +1,19 @@
+.banner {
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+    border-radius: 4px;
+}
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.banner-main {
+    height: 100%;
+}
+.banner-second {
+    aspect-ratio: 16/7;
+}
+.banner-second:not(:last-child) {
+    margin-bottom: 20px;
+}

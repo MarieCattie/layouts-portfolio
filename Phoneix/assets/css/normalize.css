@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+section, nav, header, footer {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+hr {
+    box-sizing: content-box;
+    height: 1px;
+    overflow: visible;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+button {
+    border: none;
+    background-color: transparent;
+}
+a, button {
+    cursor: pointer;
+}
+button,input,optgroup,select,textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+input, textarea {
+    outline: none;
+}

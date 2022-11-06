@@ -1,0 +1,245 @@
+@media screen and (max-width: 1250px) {
+.block-side {
+  padding: 15px;
+}
+}
+@media screen and (max-width: 1200px) {
+.doctor__info {
+  margin-left: 0;
+}
+  }
+@media screen and (max-width: 1130px) {
+  .products__item {
+    width: calc(50% - 15px);
+}
+}
+@media screen and (max-width: 1080px) {
+  .header__search {
+    width: auto;
+    margin-left: 10px;
+  } 
+}
+@media screen and (max-width: 978px) {
+  .products-sort {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .products__item {
+    width: 100%;
+    margin-right: 0;
+}
+.clinic-services__item {
+    flex: none;
+    width: calc(50% - 25px);
+    margin-bottom: 25px;
+}
+  .footer__content {
+    align-items: flex-start;
+  }
+  .questions-list__item {
+    font-size: 16px;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+  }
+  .block-side__label {
+    padding: 7px 11px;
+  }
+  .block-side {
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: var(--margin-s);
+  }
+
+}
+@media screen and (max-width: 762px) {
+  .main-content {
+    flex-direction: column;
+  }
+  .mr-2-medium--desktop {
+    margin-right: 0;
+  }
+  .nav__item {
+    padding: 15px;
+  }
+  .clinic-services__item {
+    flex:none;
+    margin-bottom: var(--margin-s);
+    width: calc(50% - 25px);
+}
+}
+@media screen and (max-width: 678px) {
+.header__contact-col {
+  display: none;
+}
+.header__logo-col {
+  justify-content: center;
+}
+.nav-icon--mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 24px;
+  height: 20px;
+}
+.nav-icon--mobile span {
+  width: 100%;
+  height: 2px;
+  background-color: var(--accent-color);
+}
+.header__contact--mobile {
+  width: 100%;
+  display: block;
+  font-size: 16px;
+  color: var(--main-text-color);
+  font-family: 'Roboto', sans-serif;
+  margin-top: var(--margin-s);
+  justify-content: center;
+}
+.header__contact--mobile span {
+  color: var(--second-color);
+  font-weight: bold;
+  font-size: 16px;
+}
+.nav-menu--mobile {
+  position: relative;
+}
+.nav {
+  display: none;
+}
+.nav-mobile {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 400;
+}
+.nav--mobile {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+
+  background-color: var(--accent-color);
+  padding: 20px;
+  padding-top: 50px;
+
+  display: flex;
+}
+.header__contact--mobile{
+  margin-left: 30px;
+}
+.header__contact--mobile .header__contact-text {
+  color: #fff;
+}
+.header__contact--mobile::before {
+  background-image: url(../img/map-white.svg) !important;
+}
+.nav--mobile__close {
+  width: 30px;
+  height: 30px;
+  /* padding: 30px; */
+  position: absolute;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  right: 20px;
+  top: 20px;
+}
+.nav--mobile__close img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.nav--mobile__item {
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+.nav-btn--mobile {
+  margin-top: var(--margin-s);
+  background-color: var(--second-color-light);
+}
+}
+@media screen and (max-width: 578px) {
+  .footer___nav-sections-holder {
+    flex-direction: column;
+    width: 100%;
+    align-items: stretch;
+  }
+  .tel {
+    align-items: flex-start;
+  }
+  .footer__address-label {
+    text-align: left;
+  }
+  .footer__contact {
+    text-align: left;
+  }
+  .clinic-services__item {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .footer__content--mobile {
+    width: 100%;
+    flex-direction: column;
+
+}
+}
+
+@media screen and (max-width: 520px) {
+  .clinic-category {
+    flex-direction: column;
+  }
+  .clinic-category__item {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .clinic-services {
+    flex-direction: column;
+  }
+  .clinic-services__item {
+    width: 100%;
+  }
+  .clinic-services__item:not(:nth-of-type(3)) {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .wrapper-banner {
+    flex-direction: column;
+  }
+  .wrapper-banner__main {
+    margin-right: 0;
+  }
+  .banner-main, .banner-second:not(:last-child) {
+    margin-bottom: 25px;
+  }
+  .tel p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 446px) {
+  .content-col:not(:last-of-type) {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 350px) {
+  .action-link {
+    font-size: 12px;
+  }
+  .products__item  {
+    max-height: max-content;
+  }
+  .product__action {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
+

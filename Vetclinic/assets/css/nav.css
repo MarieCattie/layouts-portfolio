@@ -1,0 +1,26 @@
+.nav {
+    width: 100%;
+    background: var(--accent-color); 
+    z-index: 300;
+}
+.nav__item {
+    padding: 20px; 
+    flex: 1; 
+    text-align: center; 
+    flex-shrink: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+.nav__item:hover {
+    background-color: var(--accent-hover-color); 
+}
+.nav-icon--mobile {
+    display: none;
+}
+.nav-mobile {
+    display: none;
+}
+.nav--mobile {
+    display: none;
+}

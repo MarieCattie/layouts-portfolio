@@ -1,0 +1,60 @@
+.main-banner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  aspect-ratio: 1/0.458;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/banner.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main-banner__title {
+  font-weight: 900;
+  font-size: 52px;
+  line-height: 120%;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.main-banner__posttitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  color: #fff;
+  margin-bottom: 45px;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .main-banner__title {
+        font-size: 38px;
+    }
+    .main-banner__posttitle {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .main-banner__title {
+        font-size: 32px;
+    }
+    .main-banner__posttitle {
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 562px) {
+  .main-banner__title {
+    font-size: 27px;
+  }
+  .main-banner__posttitle {
+    font-size: 14px;
+  }
+  .main-banner__title {
+    margin-bottom: 8px;
+}
+}
+
+

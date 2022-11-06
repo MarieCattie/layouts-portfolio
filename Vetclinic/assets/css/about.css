@@ -1,0 +1,12 @@
+.about-quote {
+  font-size: 28px;
+  color: var(--dark-grey);
+  font-family: 'Neucha', cursive;
+  padding-left: 20px;
+  border-left: 2px solid var(--accent-color);
+  margin-bottom: 30px;
+}
+.about__content {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}

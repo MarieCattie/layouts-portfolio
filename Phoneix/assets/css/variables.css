@@ -1,0 +1,8 @@
+:root {
+    --accent-color: #C60101;
+    --text-color: #181414;
+    --text-second: #929292;
+    --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+    --gradient-red: linear-gradient(90deg, #C90000 0%, #620000 100.03%);
+    --footer-bg: #404040;
+}

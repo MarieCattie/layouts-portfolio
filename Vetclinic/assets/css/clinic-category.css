@@ -1,0 +1,35 @@
+.clinic-category {
+    flex-wrap: wrap;
+    margin-top: var(--margin-s);
+}
+.clinic-category__item {
+    height: 128px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+    padding: 10px;
+
+    flex: 1;
+}
+
+.clinic-category__title {
+    margin-top: 10px;
+    text-align: center;
+}
+.clinic-category__item:not(:last-of-type) {
+    margin-right: 10px;
+}
+.clinic-category__image {
+    width: 68px;
+}
+.clinic-category__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
