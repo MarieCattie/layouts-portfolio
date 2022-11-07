@@ -33,5 +33,19 @@
         grid-template-rows: repeat(6, 1fr);
     }
 }
+@media screen and (max-width: 470px) {
+    .features__item {
+        flex-direction: column;
+    }
+    .features__icon {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .features__title {
+        text-align: center;
+    }
+}
+
+
 
 

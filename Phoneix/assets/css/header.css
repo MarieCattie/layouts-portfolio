@@ -77,3 +77,11 @@
         display: none;
     }
 }
+@media screen and (max-width: 370px) {
+    .main-logo {
+        width: 30%;
+        margin-left: 20px;
+    }
+}
+
+

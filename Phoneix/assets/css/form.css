@@ -36,3 +36,8 @@
         margin-bottom: 20px;
     }
 }
+@media screen and (max-width: 562px) {
+    .contact-form > * {
+        min-width: 100%;
+    }
+}

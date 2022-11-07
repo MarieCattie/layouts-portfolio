@@ -58,6 +58,9 @@
     .main-products__item:not(:last-of-type) {
         margin-right: 20px;
     }
+    .main-products__item:nth-of-type(3) {
+        margin-right: 0;
+    }
 }
 @media screen and (max-width: 767px) {
     .main-products__item {
